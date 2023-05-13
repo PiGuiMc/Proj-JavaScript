@@ -21,7 +21,6 @@ function cliqueiNoBotao(){
 }
 
 function colocarDadosNaTela(dados){
-    console.log(dados)
     document.querySelector(".cidade").innerHTML = `Tempo em ${dados.name} - ${dados.sys.country}`;
 
     document.querySelector(".temp").innerHTML = `${Math.floor(dados.main.temp)}°C`;
